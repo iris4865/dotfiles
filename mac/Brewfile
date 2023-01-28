@@ -1,0 +1,55 @@
+tap "homebrew/cask"
+brew "mas"
+
+# python
+brew "autopep8"
+brew "black"
+brew "pylint"
+brew "pyenv"
+
+# node
+brew "nodebrew"
+brew "typescript"
+brew "yarn"
+brew "eslint"
+
+# java
+cask "adoptopenjdk"
+
+
+# db
+brew "mysql"
+brew "sqlfluff"
+cask "mysql-connector-python"
+cask "dbeaver-community"
+
+brew "awscli"
+
+# terminal
+cask "iterm2"
+
+# shell
+brew "zsh-autosuggestions"
+brew "tmux"
+
+# prompt
+brew "starship"
+
+# browser
+cask "microsoft-edge"
+
+# k8s
+brew "helm"
+brew "etcd"
+brew "kubernetes-cli", link: false
+cask "lens"
+
+# tools
+brew "jq"
+cask "visual-studio-code"
+
+# app store
+mas "Bitwarden", id: 1352778147
+mas "Slack", id: 803453959
+mas "Tailscale", id: 1475387142
+mas "Telegram", id: 747648890
